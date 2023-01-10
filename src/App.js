@@ -8,25 +8,43 @@ import Message from './component/Message';
 import Counter from './component/Counter';
 import FunctionClick from './component/FunctionClick';
 import ClassClick from './component/ClassClick';
+import EventBind from './component/EventBind';
+import ParentComponent from './component/ParentComponent';
+import UserGreeting from './component/UserGreeting';
+import NameList from './component/NameList';
+import Stylesheet from './component/Stylesheet';
+import Inline from './component/Inline';    
+import './appStyles.css';
+// np folder named styles but a var
+import styles from './appStyles.module.css';
+
 
 function App() {
   return (
     <div className="App">
-      {/* <Greet/>
-      <Welcome/>    
-      <Hello/>
-      <Greet02 name="Rose" heroElem="Earth">
-        <p>This is children props</p>
-      </Greet02>  
-      <Greet02 name="Jane" heroElem="Fire">
-        <button>Action</button>  
-      </Greet02>  
-      <Greet02 name="Will" heroElem="Wind"/>
-      <Welcome name="Will" heroElem="Wind"/>  
-      <Message/> */}
+      {/* <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1> */}
+      <Inline/>
+      {/* <Stylesheet primary={true}/> */}
+      {/* <NameList/>       */}
+      {/* <UserGreeting/> */}
+      {/* <ParentComponent/> */}
+      {/* <EventBind/> */}
+      {/* <ClassClick/> */}
+      {/* <FunctionClick/> */}
       {/* <Counter/> */}
-      <FunctionClick/>
-      <ClassClick/>
+      {/* <Message/> */}
+      {/* <Welcome name="Will" heroElem="Wind"/>*/}
+      {/* <Greet02 name="Will" heroElem="Wind"/> */}
+      {/* <Greet02 name="Jane" heroElem="Fire">
+        <button>Action</button>  
+      </Greet02>*/}
+      {/* <Greet02 name="Rose" heroElem="Earth">
+        <p>This is children props</p>
+      </Greet02>*/}
+      {/* <Hello/> */}
+      {/* <Welcome/>*/}
+      {/* <Greet/> */}
     </div>
   );
 }
