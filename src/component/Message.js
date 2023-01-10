@@ -24,4 +24,15 @@ class Message extends Component{
         ) 
     }}
 
+    //destructuring state
+    // render(){
+    //     const {Message} = this.state
+    //     return(
+    //         <div>
+    //             <h1>{Message}</h1>
+    //             <button onClick={() => this.changeMessage()}>Subscribe</button>
+    //         </div>
+    //     ) 
+    // }}
+
 export default Message;
